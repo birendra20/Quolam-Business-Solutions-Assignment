@@ -3,11 +3,11 @@
   padding: 0px;
   box-sizing: border-box;
 }
-.clearfix::after {
+/* .clearfix::after {
   content: " ";
   clear: both;
   display: table;
-}
+} */
 a {
   text-decoration: none;
 }
@@ -61,4 +61,43 @@ header .container ul li .active {
   border: 2px solid #23b7a4;
   color: #23b7a4;
   margin-left: 0px;
+}
+
+/** Hero section **/
+section#hero {
+  height: 660px;
+  background-image: url("images/hero.jpg");
+  background-color: #3a454d;
+  background-position: center center;
+}
+section#hero .container h2 {
+  color: white;
+  max-width: 654px;
+}
+section#hero .container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+section#hero .container p {
+  margin-top: 24px;
+  max-width: 654px;
+}
+
+section#hero .container div {
+  margin-top: 36px;
+  font-size: 0px;
+  max-width: 654px;
+}
+section#hero .container div a {
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  border: 2px solid white;
+  border-radius: 4px;
+  margin-right: 11px;
+  display: inline-block;
 }
